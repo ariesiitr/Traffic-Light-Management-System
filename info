@@ -1,0 +1,13 @@
+We make use of the YOLO v5 object detection model to process the numbers of cars, buses , trucks etc at any signal, and then we feed that data to a function that calculates 
+the appropriate green signal time , based on traffic density and a few other parameters such as average crossing times. This helps in efficient regulation 
+of traffic across junctions.
+
+(The final implementation is in the file signalcountdown.py)
+
+The time for each signal is shown in the RYG format in the form of a nested list.
+
+We have included a 504 entry sample of the dataset used for training (actual size was 7481 for training, and 1599 for validation).
+
+The working model was based off a simulation on tinkercad, that showed the signal switching process. (link in the word document).
+
+Extensive working and implementation details are also in the word document.
