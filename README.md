@@ -3,9 +3,9 @@ Recruitment Project for 1st year
 
 This project tries to overcome the problem of mismanaged traffic effeciently, by using the state of the art object detection algorithm called YOLO.
 At each signal, a snapshot is taken that is sent to the program for processing. Using YOLO (which we have integrated with our main python program) we first extract the number of cars, buses etc in that photo.
-We feed these values to a function , that is designed to calculate the appropriate green signal time for the given nu. of vehicles of each class.
+We feed these values to a function , that is designed to calculate the appropriate green signal time for the given no. of vehicles of each class. The function relies on the traffic density.
 
-The main function is designed to run a loop, in which the status of each signal (RYG time left) is updated each second. As move from one signal to another, we update the green signal time (using the function), and then the function runs in the next iteration with updated parameters. The green time for the first signal is initialised to 20 seconds.
+The main function in our program is designed to run a loop, in which the status of each signal (RYG time left) is updated each second. As move from one signal to another, we update the green signal time (using the function), and then the function runs in the next iteration with updated parameters. The green time for the first signal is initialised to 20 seconds.
 Yellow time for all signals is 4 seconds.
 
 Training info and specifications are described in the word doc.
